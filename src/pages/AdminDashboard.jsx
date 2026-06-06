@@ -144,7 +144,7 @@ const AdminDashboard = () => {
         <header style={orangeHeader}>
           <div style={headerLeft}>
             <Link to="/admin" style={{ textDecoration: 'none', color: 'inherit' }}>
-              <span style={headerTag}>SMART STUDENTS</span>
+              <span style={headerTag}>THE HAPPY VALLEY INTERNATIONAL SCHOOL</span>
             </Link>
             <div style={vDivider}></div>
             <div style={headerNav}>
@@ -243,7 +243,7 @@ const AdminDashboard = () => {
 
         <footer style={footerStyle}>
           <div style={tickerWrapper}>
-             <p style={tickerText}>Start Building for Smart Education | © 2026 EduFlow</p>
+             <p style={tickerText}>Best Choice Lets Come and join us  to rise your Level | © 2026 EduFlow</p>
           </div>
         </footer>
       </main>
