@@ -42,7 +42,7 @@ const AddTeacher = () => {
       }
 
       const response = await axios.post(
-        "https://student-management-system-4-hose.onrender.com/api/teachers/add",
+        "https://happy-valley-school.onrender.com/api/teachers/add",
         formData,
         { headers: { "Content-Type": "multipart/form-data" } }
       );

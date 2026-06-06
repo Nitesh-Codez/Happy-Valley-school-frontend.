@@ -7,7 +7,7 @@ const MsgIcon = () => <span>💬</span>;
 const UserIcon = () => <span>👤</span>;
 const MenuIcon = () => <span>☰</span>;
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const subjectsByClass = {
   "1st": ["Hindi", "English", "EVS", "Maths"],

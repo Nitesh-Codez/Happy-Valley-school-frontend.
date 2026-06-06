@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaGraduationCap, FaSearch, FaSave, FaEdit, FaPlusCircle, FaFilter, FaTrash } from "react-icons/fa";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL =process.env.REACT_APP_API_URL;
 
 const AdminAddMarks = () => {
   const subjectsByClass = {

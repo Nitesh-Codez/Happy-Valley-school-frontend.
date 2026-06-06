@@ -7,7 +7,7 @@ import {
   FaLightbulb, FaAward 
 } from "react-icons/fa";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com/api/feedback/admin/all";
+const API_URL = "https://happy-valley-school.onrender.com/api/feedback/admin/all";
 
 /* ================= HELPERS ================= */
 

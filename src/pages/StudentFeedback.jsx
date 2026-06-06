@@ -3,7 +3,7 @@ import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaCheckCircle, FaStar, FaPaperPlane, FaLock, FaChevronLeft, FaChevronRight, FaCrown, FaClipboardList, FaHourglassHalf } from "react-icons/fa";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const questions = [
   { question: "How do you feel about Bhaiya’s behavior with students and the way he supports and motivates you during the class?", options: ["Excellent", "Good", "Average", "Not Good"] },

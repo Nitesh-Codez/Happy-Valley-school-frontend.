@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ApplyCorrection = () => {
   const { state } = useLocation();

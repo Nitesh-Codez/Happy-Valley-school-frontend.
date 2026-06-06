@@ -6,7 +6,7 @@ import {
   FaCheckCircle, FaCamera
 } from "react-icons/fa";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com/api/students";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const ManageStudents = () => {
   const [students, setStudents] = useState([]);

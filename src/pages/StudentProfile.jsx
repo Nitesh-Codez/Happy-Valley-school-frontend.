@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const StudentProfile = () => {
   const [profile, setProfile] = useState({});

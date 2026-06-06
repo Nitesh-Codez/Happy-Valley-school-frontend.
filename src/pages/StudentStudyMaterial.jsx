@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const subjectThemes = {
   Math: { grad: "linear-gradient(135deg, #FF6B6B 0%, #EE5253 100%)", light: "#FFF0F0" },

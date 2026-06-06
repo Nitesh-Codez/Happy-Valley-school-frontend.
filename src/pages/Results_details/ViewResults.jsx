@@ -6,7 +6,7 @@ import axios from "axios";
  * Version: 5.1.0 (Strict Edge-to-Edge Layout)
  */
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 export default function ViewResults() {
   // --- States ---

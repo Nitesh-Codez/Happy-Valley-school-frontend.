@@ -9,7 +9,7 @@ import {
 /**
  * API CONFIGURATION
  */
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 const ASSIGNMENTS_API = `${API_URL}/api/assignments/class`;
 const SUBMIT_API = `${API_URL}/api/assignments/student/upload`;
 const DELETE_API = `${API_URL}/api/assignments`;

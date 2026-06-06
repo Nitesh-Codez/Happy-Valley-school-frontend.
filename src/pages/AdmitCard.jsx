@@ -9,7 +9,7 @@ const AdmitCard = () => {
       const user = JSON.parse(localStorage.getItem("user"));
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/attendance/student/${user.id}`
+          `https://happy-valley-school.onrender.com/api/attendance/student/${user.id}`
         );
         setAttendancePercent(res.data.percent);
       } catch (err) {

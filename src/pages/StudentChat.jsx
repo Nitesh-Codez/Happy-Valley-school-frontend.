@@ -6,8 +6,7 @@ import {
 } from "react-icons/fa";
 
 // Is URL ko dhyan se check kar, /api/chat hona chahiye
-const API_URL = "https://student-management-system-4-hose.onrender.com/api/chat";
-
+const API_URL = "https://happy-valley-school.onrender.com/api/chat";
 const StudentChat = ({ user }) => {
   const [messages, setMessages] = useState([]);
   const [text, setText] = useState("");

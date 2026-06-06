@@ -15,7 +15,7 @@ const TeacherList = () => {
   const fetchTeachers = async () => {
     try {
       const res = await axios.get(
-        "https://student-management-system-4-hose.onrender.com/api/teachers/admin/teachers"
+        "https://happy-valley-school.onrender.com/api/teachers/admin/teachers"
       );
       setTeachers(res.data);
     } catch (err) {

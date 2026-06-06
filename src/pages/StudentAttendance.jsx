@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 const StudentAttendance = () => {
   const user = JSON.parse(localStorage.getItem("user"));
-  const API_URL = "https://student-management-system-4-hose.onrender.com";
+  const API_URL = process.env.REACT_APP_API_URL;
 
   const [attendance, setAttendance] = useState([]);
   const [month, setMonth] = useState("");

@@ -3,7 +3,7 @@ import axios from "axios";
 import { FaEdit, FaTrash, FaPlus, FaSave, FaTimes } from "react-icons/fa";
 
 const AdminQuizPage = () => {
-  const API_URL = "https://student-management-system-4-hose.onrender.com";
+  const API_URL = process.env.REACT_APP_API_URL;
   
   const subjectsByClass = {
     "L.K.G": ["Hindi", "English", "Maths", "EVS", "Reading", "Test"],

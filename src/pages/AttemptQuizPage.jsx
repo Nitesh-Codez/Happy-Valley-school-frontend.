@@ -6,7 +6,7 @@ const AttemptQuizPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   
-  const API_URL = "https://student-management-system-4-hose.onrender.com";
+  const API_URL = process.env.REACT_APP_API_URL;
   const user = JSON.parse(localStorage.getItem("user"));
   const studentId = user?.id || user?._id;
 

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const StudentQuizDashboard = () => {
   const navigate = useNavigate();
-  const API_URL = "https://student-management-system-4-hose.onrender.com";
+  const API_URL = process.env.REACT_APP_API_URL;
 
   // User session details
   const user = JSON.parse(localStorage.getItem("user"));

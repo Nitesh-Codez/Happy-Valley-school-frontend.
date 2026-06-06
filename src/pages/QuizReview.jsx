@@ -17,7 +17,7 @@ const QuizReview = () => {
   const questionRefs = useRef([]);
   const bubbleRefs = useRef([]);
 
-  const API_BASE_URL = "https://student-management-system-4-hose.onrender.com";
+  const API_BASE_URL = process.env.REACT_APP_API_URL;
 
   useEffect(() => {
     window.scrollTo(0, 0);

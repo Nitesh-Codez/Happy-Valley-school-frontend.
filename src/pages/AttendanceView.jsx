@@ -6,7 +6,7 @@ import {
   FaTimes, FaArrowRight, FaFilter 
 } from "react-icons/fa";
 
-const API_URL = "https://student-management-system-4-hose.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL;
 
 const AttendanceView = () => {
   const [students, setStudents] = useState([]);
