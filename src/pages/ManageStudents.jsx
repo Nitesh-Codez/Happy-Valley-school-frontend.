@@ -7,7 +7,7 @@ import {
   FaFileInvoice, FaGraduationCap
 } from "react-icons/fa";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = "https://happy-valley-school.onrender.com/api/students";
 
 const ManageStudents = () => {
   const [students, setStudents] = useState([]);
